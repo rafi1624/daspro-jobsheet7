@@ -11,11 +11,11 @@ public class tugas1Absen23 {
         int totalTiketTerjual = 0;
 
         while (true) {
-            System.out.print("Masukkan Jumlah Tiket yang Dibeli (Ketik -1 untuk Membatalkan): ");
+            System.out.print("Masukkan Jumlah Tiket yang Dibeli (Ketik 0 untuk Membatalkan): ");
             jumlahTiket = sc.nextInt();
 
             
-            if (jumlahTiket == -1) {
+            if (jumlahTiket == 0) {
                 break;
             }
             if (jumlahTiket < 0) {
